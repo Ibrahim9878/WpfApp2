@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid >
+        <Button Name="Button1" Width ="135" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Content="1" FontSize="50" PreviewMouseLeftButtonDown="Button1_MouseLeftButtonDown"  Background="Cyan" PreviewMouseRightButtonDown="Button1_PreviewMouseRightButtonDown" />
+        <Button Name="Button2" Width ="135" Height="100" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" Background="Red" Content="2" FontSize="50" Cursor="Hand" PreviewMouseLeftButtonDown ="Button2_MouseLeftButtonDown" PreviewMouseRightButtonDown="Button2_PreviewMouseRightButtonDown"/>
+        <Button Name="Button3" Width ="135" Height="100" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="20" Background="Green" Content="3" FontSize="50" PreviewMouseLeftButtonDown="Button3_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button3_PreviewMouseRightButtonDown"/>
+        <Button Name="Button4" Width ="135" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20" Background="BlueViolet" Content="4" FontSize="50" PreviewMouseLeftButtonDown="Button4_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button4_PreviewMouseRightButtonDown"/>
+        <Button Name="Button5" Width ="135" Height="100" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20" Background="YellowGreen" Content="5" FontSize="50" PreviewMouseLeftButtonDown="Button5_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button5_PreviewMouseRightButtonDown"/>
+        <Button Name="Button6" Width ="135" Height="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20" Background="Fuchsia" Content="6" FontSize="50" PreviewMouseLeftButtonDown="Button6_PreviewMouseLeftButtonDown" PreviewMouseRightButtonDown="Button6_PreviewMouseRightButtonDown"/>
+    </Grid>
+</Window>
